@@ -6,11 +6,11 @@ Classify emails as spam or non-spam.
 
 ### _How?_
 
-With the Naive Bayes algorithm.
+With the _Naive Bayes_ algorithm.
 
 ### _Exploratory Data Analysis_
 
-Through the _"groupby"_ function, note that there is a predominance of non-spam emails.
+Through the _groupby_ function, note that there is a predominance of non-spam emails.
 
 ```
 email  count                               2500
@@ -20,7 +20,7 @@ email  count                               2500
 Name: 0, dtype: object
 ```
 
-Through the histogram note that there are more characters in spam messages:
+Through the _histogram_ note that there are more characters in spam emails:
 ![](/Chart/Histogram.png)
 
 ### _Data Processing_
